@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:baselineAligned="false"
+              android:background="@drawable/back">
+
+    <FrameLayout android:id="@+id/scoresFragment"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center_horizontal"/>
+    <FrameLayout android:id="@+id/recapsFragment"
+                 android:layout_width="0px"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="clip_vertical"/>
+</LinearLayout>

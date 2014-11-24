@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gen1">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///adt/sdk/extras/android/support/v7/appcompat/gen" />
+    </SOURCES>
+  </library>
+</component>

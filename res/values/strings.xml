@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Brooklyn Nets Recaps</string>
+    <string name="team_name">Brooklyn Nets</string>
+    <string name="recap_name">Brooklyn Nets recap</string>
+    <string name="score">SCORE</string>
+    <string name="record">RECORD: 0 - 0</string>
+    <string-array name="Scores">
+        <item>100:90</item>
+        <item>100:50</item>
+        <item>100:20</item>
+    </string-array>
+
+    <string-array name="Recaps">
+        <item>bleggdsagdsg, nsdjknjdsandjn, nfjinasn fnjufn njndjwan nwjndjqwnd njndwqjnd  njdnqjdnq njfnqewjfdnwq jnqjnqjw njwnjnqjnjnqwjn qjn</item>
+        <item>Super parti mecz! bleb lbe opo afdasfik aafdsf jaf </item>
+        <item>Blowout jakich mało, nic przeciwnik nie zagrał</item>
+    </string-array>
+</resources>
