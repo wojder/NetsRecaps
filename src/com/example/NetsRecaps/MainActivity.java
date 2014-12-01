@@ -30,13 +30,13 @@ public class MainActivity extends Activity implements ScoresFragment.ListSelecto
 
         setContentView(R.layout.main);
         singleRecapFragmentLayout = (FrameLayout)findViewById(R.id.recapsFragment);
-        singleScoreFragmentLayout = (FrameLayout) findViewById(R.id.scoresFragment);
+        singleScoreFragmentLayout = (FrameLayout)findViewById(R.id.scoresFragment);
 
         fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.scoresFragment, new ScoresFragment());
         fragmentTransaction.commit();
-        
+
         fragmentManager.addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
             @Override
             public void onBackStackChanged() {
@@ -95,20 +95,14 @@ public class MainActivity extends Activity implements ScoresFragment.ListSelecto
     public void onSelection(int index) {
         if (!singleRecapFragment.isAdded()) {
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
             fragmentTransaction.replace(R.id.recapsFragment, singleRecapFragment);
-
             fragmentTransaction.addToBackStack(null);
-
             fragmentTransaction.commit();
             fragmentManager.executePendingTransactions();
-
         }
 
         if (singleRecapFragment.getShownIndex() != index) {
-
             singleRecapFragment.showRecapsOnIndex(index);
-
         }
     }
 }

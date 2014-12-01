@@ -30,7 +30,7 @@ public class RecapsFragment extends Fragment {
             return;
         mCurrIndex = newIndex;
         recapsView.setText(MainActivity.recaps[mCurrIndex]);
-        }
+    }
 
     @Override
     public void onAttach(Activity activity) {

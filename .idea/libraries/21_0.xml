@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="21.0">
-    <CLASSES>
-      <root url="file:///adt/sdk/extras/android/m2repository/com/android/support/appcompat-v7/21.0.0" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>
